@@ -1,0 +1,17 @@
+{
+	"name": "flynn314/webclient",
+	"description": "Tiny web client",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": "^7.4",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Flynn314\\WebClient\\": "src"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
